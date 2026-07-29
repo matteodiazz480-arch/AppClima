@@ -1,5 +1,7 @@
 # Nimbus Weather 🌤️
 
+> 📲 **Probá la app ahora:** [Descargar APK](https://expo.dev/accounts/cirokaza/projects/nimbus-weather/builds/4f2e6b1e-4ee7-4889-9498-4fbdfd74146f) (Android, instalación directa sin Play Store)
+
 Aplicación de clima para Android e iOS construida con **React Native + Expo**. Muestra el clima actual, pronóstico por hora y por día, y funciones extra (mascotas, modo viaje, notificaciones) usando la API pública y gratuita de **[Open-Meteo](https://open-meteo.com/)** — sin API key, sin costo.
 
 Todo el código vive en [`frontend/`](./frontend). Esta app no tiene backend propio: corre entera en el dispositivo y consulta directamente la API de Open-Meteo.
