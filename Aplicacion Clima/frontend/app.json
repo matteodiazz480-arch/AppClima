@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Nimbus Weather",
+    "slug": "nimbus-weather",
+    "version": "1.0.0",
+    "scheme": "nimbusweather",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Usamos tu ubicación para mostrarte el clima de donde estás."
+      }
+    },
+    "android": {
+      "package": "com.nimbusweather.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Usamos tu ubicación para mostrarte el clima de donde estás."
+        }
+      ],
+      "expo-font",
+      "expo-notifications"
+    ]
+  }
+}
